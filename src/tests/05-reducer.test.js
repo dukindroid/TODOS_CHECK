@@ -1,7 +1,7 @@
 import reducer from "../reducer/index";
 import { addTodo, removeTodo, toInProgress, toDone } from "../actions";
 
-xdescribe("reducer", () => {
+describe("reducer", () => {
   it("Deberia retornar el estado inicial", () => {
     expect(reducer(undefined, [])).toEqual([]);
   });

@@ -62,7 +62,7 @@ Para el desarrollo de esta aplicacion, te recomendamos seguir este camino:
 
 Vas a tener que ir leyendo cada archivo de test por componente y la descripcion de cada uno para ir avanzando.
 
->Los tests se encuentran comentados. Para poder correrlos tendras que cambiar el `xdescribe()` de cada archivo .test.js por `describe()`.
+>Los tests se encuentran comentados. Para poder correrlos tendras que cambiar el `describe()` de cada archivo .test.js por `describe()`.
 
 >Lee bien los tests, y lo que pide, sobre todo los detalles.
 

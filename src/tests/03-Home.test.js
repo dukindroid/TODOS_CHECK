@@ -7,7 +7,7 @@ import Todos from "../components/Todos/Todos";
 
 configure({ adapter: new Adapter() });
 
-xdescribe("<Home />", () => {
+describe("<Home />", () => {
   let wrapper;
   beforeEach(() => {
     wrapper = shallow(<Home />);

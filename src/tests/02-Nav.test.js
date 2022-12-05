@@ -7,7 +7,7 @@ import Nav from "../components/Nav/Nav";
 
 configure({ adapter: new Adapter() });
 
-xdescribe("<Nav />", () => {
+describe("<Nav />", () => {
   let wrapper;
   beforeEach(() => {
     wrapper = shallow(<Nav />);

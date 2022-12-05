@@ -13,7 +13,7 @@ import Nav from "../components/Nav/Nav";
 
 configure({ adapter: new Adapter() });
 
-xdescribe("App", () => {
+describe("App", () => {
   let store;
   const middlewares = [];
   const mockStore = configureStore(middlewares);

@@ -8,7 +8,7 @@ import AddTodoDefault, { AddTodo } from "../components/AddTodo/AddTodo.js";
 
 configure({ adapter: new Adapter() });
 
-xdescribe("<AddTodo />", () => {
+describe("<AddTodo />", () => {
   describe("Estructura", () => {
     let wrapper;
     beforeEach(() => {

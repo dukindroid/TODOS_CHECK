@@ -10,7 +10,7 @@ import Todo from "../components/Todo/Todo";
 
 configure({ adapter: new Adapter() });
 
-xdescribe("<Todos />", () => {
+describe("<Todos />", () => {
   let wrapper;
   let store;
   const state = [
